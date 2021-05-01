@@ -1,16 +1,11 @@
-# myapp
+# App de teste
 
 A new Flutter project.
 
-## Getting Started
+## Conclusões até o momento
 
-This project is a starting point for a Flutter application.
+### **Web** 
+"Problema" com carregamento ainda persiste, mas já melhorou um pouco (por ser uma aplicação web é esperado mais performance)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Desktop**  
+Mesmo em beta o desempenho esta muito bom, rodando em debug está perto de 100mb de memória RAM uma aplicação, já em release isso cai para 37mb, muito melhor que uma aplicação electron, que básico do básico já vai "gastar um chrome rodando internamente", gastando lá os seus 150mb, 200mb dependedo do código que irá no "browser"
